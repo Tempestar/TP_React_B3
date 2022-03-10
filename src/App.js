@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 export default function App() {
   return (
     <div>
-      <h1>Tournoi Civilization</h1>
+      <h1>Tournoi Civilization VI</h1>
       <nav
         style={{
           borderBottom: "solid 1px",
